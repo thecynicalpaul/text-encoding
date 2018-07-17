@@ -9,7 +9,7 @@
     root.TextDecoder = textEncoding.TextDecoder;
   }
 }(this, function() {
-  "user strict";
+  "use strict";
   
   var scope = typeof GLOBAL !== "undefined" ? GLOBAL : window;
   if (typeof scope.TextEncoder !== "undefined" &&
